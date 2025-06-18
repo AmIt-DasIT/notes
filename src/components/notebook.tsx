@@ -356,7 +356,9 @@ export function Notebook() {
 
         <div className="mt-1">
           <div className="flex flex-col sm:flex-row justify-between gap-4">
-            <p className="text-2xl font-extrabold">Your Notes</p>
+            <p className="text-2xl font-extrabold hidden md:block">
+              Your Notes
+            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
                 <DialogTrigger asChild>
