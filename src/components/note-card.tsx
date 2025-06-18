@@ -406,7 +406,7 @@ export function NoteCard({
               <p>{format(new Date(note.updatedAt), "do MMMM, yyyy")}</p>
             </div>
 
-            <div className="items-center gap-2 mt-4 justify-end absolute bottom-2 right-2 group-hover:flex hidden">
+            <div className="items-center gap-2 mt-4 justify-end md:absolute md:bottom-2 md:right-2 flex md:group-hover:flex md:hidden">
               <div className={`h-4 w-4 rounded-full ${note.color}`}></div>
               <Trash2
                 className="h-4 w-4 cursor-pointer"
